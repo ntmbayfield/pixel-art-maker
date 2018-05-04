@@ -1,1 +1,52 @@
+#pixelContainer {
+  display: table;
+  height: 600px;
+  width: 600px;
+  border: solid black 30px;
+  background-color: blue;
+  boder-spacing: 1px;
+}
 
+.rows {
+  display: table-row;
+}
+
+
+.pixels {
+  display: table-cell;
+  background-color: lightgrey;
+  border: solid black 1px;
+}
+
+#paletteContainer {
+  display: table;
+  height: 200px;
+  width: 1000px;
+}
+
+#paletteRow {
+  display: table-row;
+  border-spacing: 5px;
+  padding: 5px;
+  margin: auto;
+  width: 100%;
+}
+
+.colorCircles {
+  display: table-cell;
+  border: black 1px solid;
+  border-radius: 10px;
+  border-spacing: 5px;
+}
+
+#selectedColorRow {
+  display: table-row;
+}
+
+#selectedColor {
+  display: table-cell;
+  height: 20px;
+  width: 20px;
+  border: yellow 3px solid;
+  border-radius: 10px;
+}
