@@ -1,10 +1,12 @@
 #pixelContainer {
   display: table;
-  height: 600px;
-  width: 600px;
-  border: solid black 30px;
-  background-color: blue;
+  height: 500px;
+  width: 100%;
+  border: solid black 15px;
   boder-spacing: 1px;
+  margin-right: 25%;
+  margin-left: 25%;
+  width: 50%;
 }
 
 .rows {
@@ -20,16 +22,17 @@
 
 #paletteContainer {
   display: table;
-  height: 200px;
-  width: 1000px;
+  height: 50px;
+  width: 100%;
 }
 
 #paletteRow {
   display: table-row;
   border-spacing: 5px;
   padding: 5px;
-  margin: auto;
-  width: 100%;
+  margin-right: 30%;
+  margin-left: 30%;
+  width: 400px;
 }
 
 .colorCircles {
@@ -39,14 +42,37 @@
   border-spacing: 5px;
 }
 
-#selectedColorRow {
-  display: table-row;
-}
-
 #selectedColor {
   display: table-cell;
-  height: 20px;
-  width: 20px;
+  height: 40px;
   border: yellow 3px solid;
   border-radius: 10px;
+  width: 15%;
+}
+
+div#paletteContainer {
+  margin-right: 25%;
+  margin-left: 25%;
+  width: 50%;
+  padding: 5px;
+  border-spacing: 10px;
+}
+
+div#pixelcontainer {
+  margin: auto;
+}
+
+h1{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  height: 20px;
+}
+
+h3 {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }

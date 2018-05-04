@@ -33,14 +33,16 @@ function createColorPalette(colorsArr) {
   paletteRow.id = "paletteRow";
   paletteContainer.appendChild(paletteRow);
   //create row for selected color
-  let selectedColorRow = document.createElement('div');
-  selectedColorRow.id = "currentColorRow";
-  paletteContainer.appendChild(selectedColorRow);
+
+  // let selectedColorRow = document.createElement('div');
+  // selectedColorRow.id = "currentColorRow";
+  // paletteContainer.appendChild(selectedColorRow);
+
   //create selected color div
   let selectedColor = document.createElement('div');
   selectedColor.id = "selectedColor";
   selectedColor.style.backgroundColor = brushColor;
-  selectedColorRow.appendChild(selectedColor);
+  paletteRow.appendChild(selectedColor);
   //create color palette divs
   for (let i=0; i <colorsArr.length; i++) {
     let colorCircle = document.createElement('div');
@@ -56,6 +58,6 @@ function createColorPalette(colorsArr) {
 
 
 
-createTable(6, 10);
+createTable(20, 20);
 
 createColorPalette(colorsArray);
