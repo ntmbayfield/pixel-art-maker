@@ -58,6 +58,6 @@ function createColorPalette(colorsArr) {
 
 
 
-createTable(20, 20);
+createTable(8, 8);
 
 createColorPalette(colorsArray);
